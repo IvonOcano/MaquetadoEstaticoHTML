@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Noto+Serif+Telugu:wght@400;500;600&display=swap');
+
+*{
+    font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif Telugu', serif;
+}
+
+.navbar.navbar-expand-lg.bg-info{
+    background: rgb(34,193,195);
+background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(19,0,37,1) 100%);
+}
+i.fa-brands.fa-facebook.fa-2xl,
+i.fa-brands.fa-instagram.fa-2xl,
+i.fa-brands.fa-linkedin.fa-2xl,
+i.fa-solid.fa-user-lock.fa-2xl,
+i.fa-solid.fa-user.fa-2xl
+{
+    color: #fff;
+    }
+i.fa-brands.fa-facebook.fa-2xl:hover{
+color: blue;
+}
+i.fa-brands.fa-instagram.fa-2xl:hover{
+    color: rgb(245, 37, 106);
+}
+i.fa-brands.fa-linkedin.fa-2xl:hover{
+    color: rgb(29, 29, 160);
+}
+
+i.fa-solid.fa-user.fa-2xl:hover{
+    color: forestgreen;
+    
+}
+i.fa-solid.fa-user-lock.fa-2xl:hover{
+    color: forestgreen;
+}
+
+.list-group-item{
+    color: gray;
+    --bs-list-group-bg: transparent;
+    border: none;
+}
+h1{
+    font-size: 60px;
+}
+
+h5{
+    font-size: 22px;
+    width: 600px;
+}
+
+.about h1, .about h2.sobremi, .about h5{
+    margin: 2rem;
+    text-shadow: 2px 2px 6px #000;
+    text-align: center;
+}
+
+section.about{
+    background-image: url(../img/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    text-align: left;
+    height: 25rem;
+    width: auto;
+    margin-top: 0em;
+    }
+
+.col-3 img{
+    margin-top: 5rem;
+}
+
+section.dashboard, section.panel{
+margin-top:9rem;
+}
+
+
+
+
+section.titulo h2, .cursos h2, .experiencia h2, .educacion h2, .datospersonales h2{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+section.titulo p{
+    text-align: center;
+}
+
+section.experiencia p, .educacion p, .cursos li, .datospersonales p{
+    flex-direction: column;
+    margin-left: 20%;
+
+}
+
+
+
+
+
